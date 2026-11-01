@@ -28,6 +28,10 @@ BAŞLA
   HATA_SAYISI >= EŞİK olana kadar
   "Çok fazla hatalı giriş, asistan kapatılıyor" yaz
 BİTİR
+## Akış Şeması
+
+
+![Kod-Asistan Akış Şeması](Diyagram.drawio.jpg)
 
 ## Kaynakça
 - Milli Eğitim Bakanlığı. *Algoritmik Düşünme ve Tasarım* [Ders Kitabı]. (Yayınevi, yıl)
