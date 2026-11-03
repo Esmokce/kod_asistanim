@@ -15,18 +15,10 @@ Kullanıcılara günlük işlerinde (hesaplama, selamlama vb.) yardımcı olacak
 Asistan, kullanıcıdan aldığı girdiyi kontrol eder. Kritik eşik mantığı:
 
 BAŞLA
-  HATA_SAYISI ← 0
-  EŞİK ← 3
-  TEKRARLA
-    Kullanıcıdan işlem seçimini al
-    EĞER seçim geçerli DEĞİLSE
-      HATA_SAYISI ← HATA_SAYISI + 1
-      "Geçersiz seçim, tekrar deneyin" yaz
-    DEĞİLSE
-      Seçilen işlemi yap
-      HATA_SAYISI ← 0
-  HATA_SAYISI >= EŞİK olana kadar
-  "Çok fazla hatalı giriş, asistan kapatılıyor" yaz
+  Kullanıcıdan "isim" al 
+  Kullanıcıdan "soyad" al
+  "isim"+"soyad"
+   Yaz "Hoş geldin "isim"+"soyad""
 BİTİR
 ## Akış Şeması
 
